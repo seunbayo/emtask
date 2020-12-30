@@ -9,3 +9,6 @@ install Ember Js (ES6) and Handlebars code snippets
 install
 install moment(date formatter)
     Write a date formatter
+
+
+    i mean this.title or title or  @title
