@@ -11,6 +11,17 @@ module.exports = function (environment) {
       appId: "1:152642830016:web:7b4471d94dd9d6a50eb725",
       measurementId: "G-2VJ3JDHHD1",
     },
+
+    moment: {
+      // Options:
+      // 'all' - all years, all timezones
+      // 'subset' - 2012-2022, all timezones
+      // 'none' - no data, just timezone API
+      includeTimezone: 'all',
+      outputFormat: 'L'
+
+    },
+
     modulePrefix: "emtask",
     environment,
     rootURL: "/",
