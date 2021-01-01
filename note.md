@@ -1,8 +1,2 @@
-
-
-install
-install moment(date formatter)
-    Write a date formatter
-
-
-  
+edit button not working
+date formatter not working

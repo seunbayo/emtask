@@ -4,7 +4,7 @@ import { action } from "@ember/object";
 
 export default class TasksEditController extends Controller {
     @action
-    editTask() {
+    editTask(id) {
         var self = this;
 
 
