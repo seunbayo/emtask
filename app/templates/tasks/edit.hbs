@@ -1,0 +1,15 @@
+<form>
+    <div class="form-group">
+        <label for="">Title</label>
+        <Input @type="text" class="form-control" @value={{@model.title}} placeholder="Add task..." />
+    </div>
+    <div class="form-group">
+        <label>Due Date</label>
+        <Input @type="date" class="form-control" @value={{@model.date}} />
+    </div>
+    <div class="form-group">
+        <label>Description</label>
+        <Textarea class="form-control" @value={{@model.description}} placeholder="Describe the task..." />
+        </div>
+    <button type="button" {{on "click" this.editTask @model.id}} class="btn btn-primary">Submit</button>
+</form>

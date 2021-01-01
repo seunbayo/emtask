@@ -5,7 +5,7 @@
 {{#each @model as |task|}}
     <div class="well">
         <h4>
-            {{task.title}}
+            <LinkTo @route="tasks.edit" @model={{task}}>{{task.title}}</LinkTo>
         </h4>
         <small>
             Due: {{ task.date}}
