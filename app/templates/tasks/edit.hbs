@@ -11,5 +11,7 @@
         <label>Description</label>
         <Textarea class="form-control" @value={{@model.description}} placeholder="Describe the task..." />
         </div>
-    <button type="button" {{on "click" this.editTask @model.id}} class="btn btn-primary">Submit</button>
+    <button type="button" {{on "click"  this.editTask @model.id}} class="btn btn-primary">Submit</button>
+
+{{!-- <button type="button" {{on "click" (fn this.editTask @model.id)}}>Submit!</button> --}}
 </form>
